@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-class Xeellit(commands.Bot):
+class Nyaellit(commands.Bot):
     def __init__(self):
         super().__init__(command_prefix='x.', intents=discord.Intents().all())
 
@@ -18,5 +18,5 @@ class Xeellit(commands.Bot):
         pass
 
 if __name__ == '__main__':
-    bot = Xeellit()
+    bot = Nyaellit()
     bot.run('token')
