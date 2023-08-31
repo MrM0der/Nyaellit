@@ -3,7 +3,7 @@ from discord.ext import commands
 
 class Xeellit(commands.Bot):
     def __init__(self):
-        super().__init__(command_prefix='x.')
+        super().__init__(command_prefix='x.', intents=discord.Intents().all())
 
         self.remove_command('help')
 
